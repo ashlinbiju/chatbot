@@ -1,0 +1,45 @@
+/* VoiceRecorder.css */
+
+/* Container for the voice recorder */
+.voice-recorder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 20px;
+}
+
+.voice-recorder-container button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.voice-recorder-container button:hover {
+    background-color: #45a049;
+}
+
+.voice-recorder-container p {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+}
+
+.voice-recorder-container .recording-indicator {
+    font-weight: bold;
+    color: red;
+    margin-top: 15px;
+    font-size: 18px;
+}
